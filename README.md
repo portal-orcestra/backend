@@ -46,8 +46,8 @@ backend/
 
 ### 1. Clone the repository:
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone git@github.com:portal-orcestra/backend.git
+cd backend
 ```
 
 ### 2. Install dependencies:
@@ -56,7 +56,7 @@ npm install
 ```
 
 ### 3. Configure environment variables:
-Create a `.env` file in the root directory and add:
+Create a `.env.local` file in the root directory and add:
 ```
 MONGO_URI=mongodb+srv://your-username:password@cluster.mongodb.net/your-database
 JWT_SECRET=your-secret-key
