@@ -58,8 +58,9 @@ npm install
 ### 3. Configure environment variables:
 Create a `.env.local` file in the root directory and add:
 ```
-MONGO_URI=mongodb+srv://your-username:password@cluster.mongodb.net/your-database
-JWT_SECRET=your-secret-key
+PORT=
+MONGO_URI=
+JWT_SECRET=
 ```
 
 ### 4. Start the server:
@@ -83,7 +84,4 @@ The server will run on `http://localhost:5000`.
 
 ## License
 This project is licensed under the MIT License.
-
-## Author
-- **Your Name** - [GitHub](https://github.com/your-username)
 
